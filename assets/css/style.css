@@ -1,10 +1,23 @@
 body {
+  font-family: 'IBM Plex Sans', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  min-height: 75vh;
+  font-size:xx-large;
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 button {
   border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: large;
+
 }
