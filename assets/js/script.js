@@ -9,16 +9,16 @@ document.getElementById("startGame").addEventListener("click", function () {
     return alert("Make a choice fool!");
   }
 
-  userInput = userInput.toUpperCase();
+  // userInput = userInput.toUpperCase();
 
   var index = Math.floor(Math.random() * options.length);
   var computerChoice = options[index];
 
-  window.alert("Computer chose " + computerChoice);
+  window.alert("Frankie chose " + computerChoice);
 
   if (userInput === computerChoice) {
     ties++;
-    window.alert("It's a tie!");
+    window.alert("It's a tie sucka!");
   } else if (
     (userInput === "Rock" && computerChoice === "Scissors") ||
     (userInput === "Paper" && computerChoice === "Rock") ||
@@ -28,7 +28,7 @@ document.getElementById("startGame").addEventListener("click", function () {
     window.alert("You win!!");
   } else {
     losses++;
-    window.alert("Computer wins!!");
+    window.alert("Booo you suck, Frankie wins!!");
   }
 
   window.alert(
